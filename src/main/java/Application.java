@@ -11,12 +11,12 @@ public class Application {
         Lab parrot = new Lab();
 
         System.out.println("Here's what Lab.copy returns when provided the value \"repeat after me\"");
-        String val1 = "repeat after me";
+        String val1 = "hello";
         String output1 = parrot.copy(val1);
         System.out.println(output1);
 
         System.out.println("Here's what Lab.copy returns when provided the value \"hello\"");
-        String val2 = "hello";
+        String val2 = "polly";
         String output2 = parrot.copy(val2);
         System.out.println(output2);
     }
